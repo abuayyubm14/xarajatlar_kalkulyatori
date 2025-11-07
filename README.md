@@ -74,22 +74,4 @@ cd android
 ./gradlew assembleDebug --stacktrace
 ```
 
-## GitHub-ga joylash
-Men README.md faylini yaratdim va loyiha uchun mahalliy git repozitoriyasini initsializatsiya qilib birinchi commit qildim. Repozitoriyani GitHub-ga push qilish uchun quyidagi buyruqlarni bajarishingiz mumkin (masalan: `git@github.com:username/repo.git` yoki `https://github.com/username/repo.git`):
 
-```bash
-git remote add origin <remote-url>
-git branch -M main
-git push -u origin main
-```
-
-Agar hohlasangiz, siz GitHub remote URL ni ayting — men hozirgi sessiyada push qilishga yordam bera olaman (agar sizning autorizatsiyangiz mavjud bo‘lsa).
-
-## Intervyu uchun tayyor javoblar (qisqacha)
-- Loyiha Flutter va Dart yordamida yozildi, Provider bilan holat boshqarildi, Hive va SharedPreferences ma'lumotlarni saqlash uchun ishlatiladi. Lokalizatsiya ARB fayllari orqali amalga oshiriladi va fl_chart yordamida diagrammalar ko‘rsatiladi.
-
-## Aloqa
-Qo‘shimcha savollar bo‘lsa yoki men GitHub-ga push qilib berishimni xohlasangiz, remote URL va imzo (SSH yoki HTTPS kredensial) haqida ma'lumot bering.
-
----
-Bu README loyihaning hozirgi holatiga mos ravishda o‘zbek tilida tuzildi. Kerak bo‘lsa inglizcha va qisqaroq versiyalarini ham tayyorlab beraman.
